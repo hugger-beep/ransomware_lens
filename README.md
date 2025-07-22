@@ -1,3 +1,4 @@
+``` json
 {
   "schemaVersion": "2021-11-01",
   "name": "Ransomware Resilience Lens",
@@ -1265,3 +1266,4 @@
     }
   ]
 }
+```
