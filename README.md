@@ -62,6 +62,14 @@
               "improvementPlan": {
                 "displayText": "Implement just-in-time access for administrative functions."
               }
+            },
+            {
+              "id": "sec_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing basic security controls starting with MFA and least privilege access."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -128,6 +136,14 @@
               },
               "improvementPlan": {
                 "displayText": "Enable Amazon Macie for data access monitoring."
+              }
+            },
+            {
+              "id": "sec_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing basic monitoring and detection capabilities starting with GuardDuty."
               }
             }
           ],
@@ -196,6 +212,14 @@
               "improvementPlan": {
                 "displayText": "monitor serverless event sources for unusual patterns that might indicate compromise."
               }
+            },
+            {
+              "id": "sec_ransomware_3_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing serverless security controls starting with least privilege Lambda permissions."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -262,6 +286,14 @@
               },
               "improvementPlan": {
                 "displayText": "implement zero trust principles for network access."
+              }
+            },
+            {
+              "id": "sec_ransomware_4_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing network segmentation starting with VPC and subnet isolation."
               }
             }
           ],
@@ -330,6 +362,14 @@
               "improvementPlan": {
                 "displayText": "maintain the ability to quickly disconnect compromised integrations."
               }
+            },
+            {
+              "id": "sec_ransomware_5_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing third-party security assessments and least privilege access controls."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -396,6 +436,14 @@
               },
               "improvementPlan": {
                 "displayText": "implement consistent encryption standards across cloud platforms."
+              }
+            },
+            {
+              "id": "sec_ransomware_6_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing consistent identity management and network segmentation across cloud platforms."
               }
             }
           ],
@@ -464,6 +512,14 @@
               "improvementPlan": {
                 "displayText": "use secure secret management for IaC pipelines."
               }
+            },
+            {
+              "id": "sec_ransomware_7_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing IaC security scanning and repository access controls."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -530,6 +586,14 @@
               },
               "improvementPlan": {
                 "displayText": "implement strict access controls for AI systems and sensitive data."
+              }
+            },
+            {
+              "id": "sec_ransomware_8_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing AI security controls starting with behavioral analytics and access controls."
               }
             }
           ],
@@ -604,6 +668,14 @@
               "improvementPlan": {
                 "displayText": "implement separate access controls for backup administration."
               }
+            },
+            {
+              "id": "rel_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing basic backup protection starting with AWS Backup and immutable storage."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -670,6 +742,14 @@
               },
               "improvementPlan": {
                 "displayText": "implement function isolation and least privilege for each serverless component."
+              }
+            },
+            {
+              "id": "rel_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing serverless resilience starting with Lambda function versioning."
               }
             }
           ],
@@ -738,6 +818,14 @@
               "improvementPlan": {
                 "displayText": "document and measure RTO/RPO achievement in recovery exercises."
               }
+            },
+            {
+              "id": "rel_ransomware_3_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing disaster recovery validation starting with basic recovery exercises."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -805,6 +893,14 @@
               "improvementPlan": {
                 "displayText": "implement enhanced monitoring for payment processing systems."
               }
+            },
+            {
+              "id": "rel_ransomware_4_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing payment system protection starting with isolation and encryption."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -871,6 +967,14 @@
               },
               "improvementPlan": {
                 "displayText": "maintain contingency plans for critical supplier compromise."
+              }
+            },
+            {
+              "id": "rel_ransomware_5_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing supply chain security starting with vendor risk assessments."
               }
             }
           ],
@@ -945,6 +1049,14 @@
               "improvementPlan": {
                 "displayText": "have pre-established relationships with forensic and incident response specialists."
               }
+            },
+            {
+              "id": "ops_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin developing incident response procedures and conducting basic tabletop exercises."
+              }
             }
           ],
           "riskLevel": "HIGH",
@@ -1011,6 +1123,14 @@
               },
               "improvementPlan": {
                 "displayText": "implement compensating controls when patches cannot be immediately applied."
+              }
+            },
+            {
+              "id": "ops_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing vulnerability management starting with Amazon Inspector scanning."
               }
             }
           ],
@@ -1079,6 +1199,14 @@
               "improvementPlan": {
                 "displayText": "regularly test our communication procedures during ransomware exercises."
               }
+            },
+            {
+              "id": "ops_ransomware_3_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing incident communication procedures starting with out-of-band channels."
+              }
             }
           ],
           "riskLevel": "MEDIUM",
@@ -1145,6 +1273,14 @@
               },
               "improvementPlan": {
                 "displayText": "protect our SIEM infrastructure from tampering during attacks."
+              }
+            },
+            {
+              "id": "ops_ransomware_4_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing SIEM capabilities starting with basic ransomware detection rules."
               }
             }
           ],
@@ -1219,6 +1355,14 @@
               "improvementPlan": {
                 "displayText": "have pre-provisioned recovery resources to avoid delays."
               }
+            },
+            {
+              "id": "perf_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing scalable recovery processes starting with automation and system prioritization."
+              }
             }
           ],
           "riskLevel": "MEDIUM",
@@ -1286,6 +1430,14 @@
               "improvementPlan": {
                 "displayText": "regularly tune detection thresholds to balance sensitivity and resource utilization."
               }
+            },
+            {
+              "id": "perf_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing efficient security automation starting with AWS-native services."
+              }
             }
           ],
           "riskLevel": "MEDIUM",
@@ -1352,6 +1504,14 @@
               },
               "improvementPlan": {
                 "displayText": "monitor for ransomware that attempts to disable security tools."
+              }
+            },
+            {
+              "id": "perf_ransomware_3_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing specific ransomware detection starting with cloud storage monitoring."
               }
             }
           ],
@@ -1426,6 +1586,14 @@
               "improvementPlan": {
                 "displayText": "regularly review and optimize our security controls for cost-effectiveness."
               }
+            },
+            {
+              "id": "cost_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing cost-effective ransomware protection starting with managed security services."
+              }
             }
           ],
           "riskLevel": "MEDIUM",
@@ -1492,6 +1660,14 @@
               },
               "improvementPlan": {
                 "displayText": "regularly review and optimize our backup strategy for cost-effectiveness."
+              }
+            },
+            {
+              "id": "cost_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing cost-effective backup strategies starting with tiered storage."
               }
             }
           ],
@@ -1566,6 +1742,14 @@
               "improvementPlan": {
                 "displayText": "regularly review and update our ransomware protection strategy."
               }
+            },
+            {
+              "id": "sust_ransomware_1_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing sustainable security practices starting with automation."
+              }
             }
           ],
           "riskLevel": "LOW",
@@ -1632,6 +1816,14 @@
               },
               "improvementPlan": {
                 "displayText": "update awareness materials based on emerging ransomware threats and tactics."
+              }
+            },
+            {
+              "id": "sust_ransomware_2_e",
+              "title": "We are not following any of the above best practices.",
+              "description": "We are not following any of the above best practices.",
+              "improvementPlan": {
+                "displayText": "Begin implementing employee security awareness starting with basic ransomware training."
               }
             }
           ],
